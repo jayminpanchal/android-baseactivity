@@ -15,6 +15,9 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getLayoutId());
     }
 
+    protected void showToolbar(boolean isShow) {
+
+    }
 
     public abstract int getLayoutId();
 
