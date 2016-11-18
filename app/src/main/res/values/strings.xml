@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BaseUtils</string>
+    <string name="tb_title_activity_main">Main Activity</string>
 </resources>

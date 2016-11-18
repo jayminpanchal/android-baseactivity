@@ -9,6 +9,8 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        setTitle(getString(R.string.tb_title_activity_main));
     }
 
     @Override
@@ -18,6 +20,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public int getToolbarId() {
-        return 0;
+        return R.id.tbMain;
     }
 }
